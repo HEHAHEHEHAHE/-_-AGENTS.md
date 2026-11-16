@@ -1,87 +1,74 @@
-# AGENTS.md - hBN Quantum Photonics Paper Wiki Schema
+# AGENTS.md - hBN 量子光子學論文 Wiki 架構
 
-> **Project Mission**:  
-> A persistent, compounding academic knowledge base focused on **Hexagonal Boron Nitride (hBN)**, **Blue Quantum Emitters (Blue Single-Photon Emitters)**, and the **Stark Effect (DC/AC Stark Tuning & Dipole Interactions)**.  
-> This schema defines rules and workflows for AI agents to ingest raw research literature, maintain cross-linked wiki pages, deconstruct figures deeply, and enable scalable academic exploration.
-
----
-
-## 1. Architecture: The Three Layers (三層架構)
-
-Following the Karpathy LLM Wiki paradigm, this repository is strictly organized into three distinct layers:
-
-1. **`raw/` (Immutable Source Layer)**:
-   - Contains raw literature extracts, paper abstracts, text dumps, or reference notes.
-   - **Rule**: Read-only for analysis. Never alter or delete existing raw records. New sources are appended as `.txt` or `.md`.
-2. **`wiki/` (Living Knowledge Layer)**:
-   - Maintained entirely by AI agents.
-   - Contains standard deconstructions of papers (`wiki/papers/`), cross-paper concept definitions (`wiki/concepts/`), global index (`wiki/index.md`), and chronological changelog (`wiki/log.md`).
-3. **`AGENTS.md` (Schema & Rule Layer)**:
-   - The single source of truth for AI agents regarding structure, nomenclature, figure analysis, and formatting.
+> **專案使命**：
+> 建立一個持續累積、可擴展的學術知識庫，聚焦於 **Hexagonal Boron Nitride (hBN)**、**Blue Quantum Emitters** 與 **Stark Effect**。本檔案規範 AI 代理在 *raw*、*wiki* 兩層之間的工作流程、文件命名、術語使用，以及 **IMRaD + 圖表四步深度解析** 的寫作標準。
 
 ---
 
-## 2. Domain & Nomenclature Rules (領域專有名詞規範)
+## 1. 三層架構
 
-To preserve scientific rigor in quantum optics and 2D materials science:
-- **Core Terminology MUST remain in English**: Do not translate domain-specific scientific terms into Chinese unless providing an initial explanatory note.
-  - *Materials & Defects*: `Hexagonal Boron Nitride (hBN)`, `Point Defects`, `Carbon-related Defect Complexes`, `Boron Vacancy ($V_B^-$)`, `Nitrogen Vacancy ($V_N$)`, `Color Centers`.
-  - *Optical & Quantum Properties*: `Blue Quantum Emitters`, `Single-Photon Emitter (SPE)`, `Zero-Phonon Line (ZPL)`, `Phonon Sideband (PSB)`, `Debye-Waller Factor`, `Second-Order Autocorrelation Function ($g^{(2)}(\tau)$)`, `Photoluminescence (PL)`.
-  - *Field & Tuning Physics*: `Stark Effect`, `Quantum-Confined Stark Effect (QCSE)`, `Permanent Electric Dipole Moment ($\vec{\mu}$)`, `Polarizability ($\alpha$)`, `Spectral Diffusion`, `Electric Field Tuning`.
-- **Mathematical Equations**: Must use standard LaTeX markdown syntax (e.g. `$\Delta E = -\vec{\mu} \cdot \vec{F} - \frac{1}{2}\alpha F^2$`).
+1. **`raw/`（不可變原始層）**：
+   - 存放原始文獻、摘要、筆記等文字檔案，**僅允許讀取**，不允許被 AI 修改或刪除。
+2. **`wiki/`（活躍知識層）**：
+   - 由 AI 完全維護，包含論文分解 (`wiki/papers/`)、概念說明 (`wiki/concepts/`)、全局索引 (`wiki/index.md`) 與時間日誌 (`wiki/log.md`)。
+3. **`AGENTS.md`（規則層）**：
+   - 本檔案即是 AI 必須遵守的唯一規範，涵蓋目錄結構、命名規則、術語保留（英文）及圖表解析流程。
 
 ---
 
-## 3. Paper Deconstruction Standard: IMRaD + Figure Deep Dive
+## 2. 領域專有名詞規範（英文保留）
 
-Every paper entry created in `wiki/papers/{year}_{first_author}_{keyword}.md` must strictly adhere to this template:
+- **材料與缺陷**：`Hexagonal Boron Nitride (hBN)`、`Point Defects`、`Carbon-related Defect Complexes`、`Boron Vacancy ($V_B^-$)`、`Nitrogen Vacancy ($V_N$)`、`Color Centers`。
+- **光學與量子性質**：`Blue Quantum Emitters`、`Single-Photon Emitter (SPE)`、`Zero-Phonon Line (ZPL)`、`Phonon Sideband (PSB)`、`Debye-Waller Factor`、`Second-Order Autocorrelation Function ($g^{(2)}(\tau)$)`、`Photoluminescence (PL)`。
+- **場與調控物理**：`Stark Effect`、`Quantum-Confined Stark Effect (QCSE)`、`Permanent Electric Dipole Moment ($\vec{\mu}$)`、`Polarizability ($\alpha$)`、`Spectral Diffusion`、`Electric Field Tuning`。
+- **數學式**必須使用 LaTeX（如 `$\Delta E = -\vec{\mu}\cdot\vec{F} - \frac{1}{2}\alpha F^2$`），且**不允許自行翻譯**上述英文術語。
+
+---
+
+## 3. 論文分解標準：IMRaD + 圖表四步深度解析
+
+每篇放在 `wiki/papers/{year}_{first_author}_{keyword}.md` 的論文筆記必須遵守以下模板（全部採用繁體中文說明，專有名詞保持英文）：
 
 ```markdown
-# [Paper Title in English]
+# [Paper Title（英文）]
 
-- **Authors**: Author list
-- **Journal / Conference**: e.g., Nano Letters / Nature Materials (Year)
-- **DOI / Link**: URL or DOI
+- **Authors**: 作者名單
+- **Journal / Conference**: 期刊或會議 (年份)
+- **DOI / Link**: DOI 或 URL
 - **Keywords / Tags**: #hBN #BlueEmitter #StarkEffect #SinglePhotonSource
 
 ---
 
 ## Executive Summary (TL;DR)
-A concise 2-3 sentence overview of the core problem, breakthrough, and key metric achieved.
+簡要 2–3 句說明研究動機、突破與核心成果。
 
 ---
 
 ## I. Introduction & Motivation (Why?)
-- **Current Problem / Bottleneck**: Limitations of existing emitters (e.g., spectral instability, low room-temperature brightness, uncontrolled emission wavelength).
-- **Research Objective**: What gap does this paper aim to bridge?
+- **Current Problem / Bottleneck**：描述現有技術的限制。
+- **Research Objective**：本篇論文欲解決的問題。
 
 ## II. Methods & Experimental Setup (How?)
-- **Sample Preparation**: Mechanical exfoliation, CVD growth, annealing conditions, substrate choice (e.g., $SiO_2/Si$, quartz).
-- **Optical Characterization Setup**: Confocal PL microscopy, Hanbury Brown-Twiss (HBT) interferometry, cryogenic vs. room temperature setups.
-- **Electric Field / Stark Setup**: Gate electrode fabrication, in-plane vs. out-of-plane field application.
+- **Sample Preparation**：樣本製備流程。
+- **Optical Characterization Setup**：光學測量設備與條件。
+- **Electric Field / Stark Setup**：電場施加方式與裝置。
 
 ## III. Figure & Table Deep Dive (關鍵圖表逐一深度解析)
-> **MANDATORY**: For every key figure, complete the 4-part deconstruction. Never summarize a figure in a single sentence.
+> **必填**：每張重要圖表必須完整填寫以下四項。
 
-### Figure X: [Figure Caption / Title]
-1. **Visual Component Decomposition (視覺組件拆解)**:
-   - What are the sub-panels (a, b, c...)? What do axes, color maps, markers, and error bars represent?
-2. **Data & Mechanism Flow (數據與物理機制流向)**:
-   - Trace the curve or spectrum: Where does the excitation start, what resonance is observed, and how does the signal shift as voltage/power changes?
-3. **Physical Significance (物理意義與設計意圖)**:
-   - Why did the authors include this figure? What hypothesis does it validate or refute?
-4. **Key Quantitative Takeaways (關鍵量化結論)**:
-   - Specific values extracted (e.g., ZPL at 436 nm, Stark shift rate of $5.2\text{ nm}/(\text{V}/\text{nm})$, $g^{(2)}(0) = 0.08$).
+### Figure X: [圖表說明]
+1. **視覺組件拆解**：說明子圖、坐標、色彩、標記、誤差棒等。
+2. **資料與機制流向**：追蹤曲線或光譜的變化，說明電壓/功率改變時的物理過程。
+3. **物理意義與設計意圖**：作者為何放此圖，驗證了什麼假設。
+4. **關鍵量化結論**：列出具體數值（e.g., ZPL 位於 436 nm、Stark 位移率 $5.2\text{ nm}/(\text{V}/\text{nm})$、$g^{(2)}(0)=0.08$）。
 
 ## IV. Results & Quantitative Findings (What?)
-- Spectral range (e.g., 400–450 nm blue emission).
-- Purity of quantum light ($g^{(2)}(0) < 0.5$).
-- Stark tuning magnitude and linearity (Linear dipole vs. Quadratic polarizability behavior).
+列出主要實驗結果與量化指標。
 
 ## V. Discussion, Limitations & Future Work (So What?)
-- **Physical Interpretation**: Defect candidate identification ($C_B V_N$, donor-acceptor pair, etc.).
-- **Unresolved Questions / Limitations**: Environmental instability, blinking, spectral diffusion under strong bias.
-- **Inspiration for Future Research**: Device integration potential or optical cavity coupling.
+- **Physical Interpretation**：對缺陷候選者的推測。
+- **Unresolved Questions / Limitations**：尚未解決的問題或限制。
+- **Inspiration for Future Research**：未來研究方向或應用前景。
 
 ---
 
@@ -93,37 +80,30 @@ A concise 2-3 sentence overview of the core problem, breakthrough, and key metri
 
 ---
 
-## 4. AI Operational Workflows (三大核心操作 SOP)
+## 4. AI 工作流程（SOP）
 
-### A. Ingest Workflow (論文匯入)
-When user supplies a new paper:
-1. Save raw source into `raw/{filename}.txt` or `raw/{filename}.md`.
-2. Extract metadata and draft the structured paper review under `wiki/papers/{year}_{first_author}_{keyword}.md`.
-3. Ensure every referenced Figure is rigorously broken down using the 4-step framework.
-4. Extract or update related concept pages in `wiki/concepts/`.
-5. Update `wiki/index.md` (add entry under Paper Catalog table).
-6. Update `wiki/_sidebar.md` (add navigation link under relevant category).
-7. Append chronological entry in `wiki/log.md`:
-   `## [YYYY-MM-DD] ingest | {Paper Title}`
+### A. Ingest（匯入）
+1. **raw**：將使用者提供的原始論文文字或 PDF 轉為 `.txt`，存入 `raw/`（保持不變）。
+2. **wiki**：根據上述 IMRaD 模板產生 `wiki/papers/` 筆記，並對每張關鍵圖表執行四步深度解析。
+3. **概念頁面**：若筆記中提及新概念，則在 `wiki/concepts/` 建立或更新對應頁面，並在 `wiki/index.md` 加入交叉連結。
+4. **索引 & 側邊欄**：自動在 `wiki/index.md` 與 `wiki/_sidebar.md` 登記新條目。
+5. **日誌**：在 `wiki/log.md` 以 `## [YYYY-MM-DD] ingest | {Paper Title}` 形式追加紀錄。
 
-### B. Query & Synthesis Workflow (提問與知識複利)
-When user asks a domain research question (e.g., *"Compare dipole moments of blue emitters vs. red emitters in hBN"*):
-1. Read `wiki/index.md` to identify relevant candidate pages.
-2. Synthesize answer referencing existing wiki entries with Markdown links.
-3. If the answer generates new cross-paper insight, file it into `wiki/concepts/` or `wiki/comparisons/` and record in `wiki/log.md`.
+### B. Query（查詢）
+1. 讀取 `wiki/index.md` 找到相關頁面。
+2. 結合多篇筆記與概念頁面給出答案，答案若具新知識則寫入 `wiki/concepts/` 或 `wiki/comparisons/`，同時更新索引與日誌。
 
-### C. Lint Workflow (知識庫健康檢查)
-Periodically check:
-- Are there orphan pages without inbound links?
-- Are any figure deep dives missing quantitative numbers?
-- Are scientific terms translated inconsistently?
-- Are all links in `_sidebar.md` and `index.md` valid?
+### C. Lint（健康檢查）
+- 檢查是否有孤立頁面、缺少圖表量化、術語翻譯不一致、連結失效等問題，並自動修正或產生待人工審核的報告。
 
 ---
 
-## 5. File Naming & Directory Conventions
+## 5. 檔案命名與目錄慣例
+- 論文筆記：`wiki/papers/{year}_{first_author_lowercase}_{short_topic}.md`（例：`2021_noh_giant_stark_blue_hbn.md`）。
+- 概念說明：`wiki/concepts/{concept_kebab_case}.md`（例：`stark-effect-tuning.md`）。
+- 圖片資源（若有）：`wiki/assets/{paper_keyword}/figX.png`。
+- 索引與側欄：`wiki/index.md`、`wiki/_sidebar.md` 必須使用相對路徑連結。
 
-- Paper files: `wiki/papers/{year}_{first_author_lowercase}_{short_topic}.md` (e.g., `2019_fournier_blue_emitter_stark.md`)
-- Concept files: `wiki/concepts/{concept_kebab_case}.md` (e.g., `stark-effect-tuning.md`)
-- Navigation files: `wiki/_sidebar.md` and `wiki/index.md` must strictly use relative links.
-- Image assets (if downloaded): `wiki/assets/{paper_keyword}/fig1.png`
+---
+
+> **注意**：所有文件皆使用 **繁體中文說明**，但 **專有名詞與數學式** 必須保留英文與 LaTeX，確保跨語言檢索與 AI 解析的一致性。

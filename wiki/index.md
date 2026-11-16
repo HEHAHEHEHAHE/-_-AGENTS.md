@@ -1,42 +1,42 @@
-# ⚛️ hBN Quantum Photonics Paper Wiki
+# hBN Quantum Photonics Paper Wiki
 
-> **A persistent, compounding research wiki for Hexagonal Boron Nitride (hBN), Blue Quantum Emitters, and Stark Effect tuning.**  
-> Powered by the **Karpathy LLM Wiki Architecture** & structured via strict **IMRaD + 4-Step Figure Deep Dive** rules.
-
----
-
-## 📖 About this Knowledge Base
-
-In traditional RAG workflows, knowledge is re-extracted from scratch on every prompt without compounding. This knowledge base serves as a **living, persistent compiler** of quantum optical literature in 2D materials.
-
-### Architecture Overview
-1. **`raw/` (Immutable Sources)**: Unmodified abstracts, citations, and experimental logs.
-2. **`wiki/` (Agent-Maintained Knowledge)**: Structured paper reviews, cross-linked concepts, and synthesis summaries.
-3. **`AGENTS.md` (Governing Schema)**: The master rulebook instructing AI agents on IMRaD formatting, terminology preservation, and Figure deconstruction.
+> **Hexagonal Boron Nitride (hBN)、Blue Quantum Emitters 與 Stark Effect 學術知識庫**  
+> 採用 **Karpathy LLM Wiki 架構**，以嚴格的 **IMRaD 格式** 與 **圖表四步深度解析** 維護。
 
 ---
 
-## 📚 Paper Catalog (論文索引總覽)
+## 關於本知識庫
 
-| Year | Title | First Author | ZPL Emission | Stark Tuning Range | $g^{(2)}(0)$ | Link |
+傳統 RAG 在每次提問時都必須從零重新擷取片段，無法達成知識複利。本知識庫作為持續更新、互相鏈結的 Markdown 知識庫，將二維量子光學的文獻進行結構化整理。
+
+### 三層架構說明
+1. **`raw/`（不可變原始資料）**：未修改的論文摘要、筆記與引文。
+2. **`wiki/`（AI 維護之知識層）**：結構化論文精讀、相互鏈結的概念頁面與時間日誌。
+3. **`AGENTS.md`（規範法典）**：指導 AI 進行 IMRaD 解析、專有名詞英文保留及圖表深度拆解的規則手冊。
+
+---
+
+## 論文索引總覽 (Paper Catalog)
+
+| 年份 | 論文名稱 | 第一作者 | ZPL 放光波長 | Stark 調控範圍 | $g^{(2)}(0)$ | 筆記連結 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2021** | Giant Stark Effect in Blue Quantum Emitters in Hexagonal Boron Nitride | G. Noh et al. | $435.8\text{ nm}$ | $15.2\text{ meV}$ ($5.5\text{ nm}$) | $0.12$ | [Read Review](wiki/papers/2021_noh_giant_stark_blue_hbn.md) |
+| **2021** | Giant Stark Effect in Blue Quantum Emitters in Hexagonal Boron Nitride | G. Noh et al. | $435.8\text{ nm}$ | $15.2\text{ meV}$ ($5.5\text{ nm}$) | $0.12$ | [閱讀精讀筆記](wiki/papers/2021_noh_giant_stark_blue_hbn.md) |
 
 ---
 
-## ⚛️ Core Concepts Index (核心物理概念)
+## 核心物理概念索引 (Core Concepts)
 
-- **[Hexagonal Boron Nitride Defects](wiki/concepts/hbn-defects.md)**: Deep dive into 2D wide-bandgap point defects ($V_B^-$, $C_B V_N$, donor-acceptor pairs) and symmetry-breaking mechanisms.
-- **[Blue Quantum Emitters](wiki/concepts/blue-quantum-emitters.md)**: Optoelectronic characteristics of high-frequency blue Single-Photon Emitters (400–450 nm).
-- **[Stark Effect in 2D Materials](wiki/concepts/stark-effect-tuning.md)**: Mathematical framework of linear dipole vs. quadratic polarizability shifts ($\Delta E = -\vec{\mu}\cdot\vec{F} - \frac{1}{2}\alpha F^2$).
-
----
-
-## 🕒 Recent Activity (最近動態)
-Check the [Chronological Log](wiki/log.md) for recent literature ingests, concept cross-links, and lint passes.
+- **[Hexagonal Boron Nitride Defects](wiki/concepts/hbn-defects.md)**：深入探討二維寬能隙材料中的點缺陷（$V_B^-$、$C_B V_N$、施體-受體對）與對稱性破缺機制。
+- **[Blue Quantum Emitters](wiki/concepts/blue-quantum-emitters.md)**：高能量藍光單光子發射體（400–450 nm）之光電特性與量測機制。
+- **[Stark Effect in 2D Materials](wiki/concepts/stark-effect-tuning.md)**：外加電場下的線性偶極位移與二次極化率位移數學模型（$\Delta E = -\vec{\mu}\cdot\vec{F} - \frac{1}{2}\alpha F^2$）。
 
 ---
 
-## 🛠️ How to Ingest a New Paper (如何新增論文)
-To append a new paper to this wiki, prompt the agent:
-> *"Here is a new paper on hBN quantum emitters. Please ingest it according to `AGENTS.md` into `raw/`, generate the paper deconstruction with Figure deep dives in `wiki/papers/`, update `wiki/index.md`, link concepts, and log the action."*
+## 最近動態 (Recent Activity)
+請參閱 [時間日誌 (wiki/log.md)](wiki/log.md) 查看文獻匯入、概念鏈結與健康檢查紀錄。
+
+---
+
+## 如何匯入新論文 (Ingest SOP)
+若要新增論文，請向 AI 提供原始文字並指令：
+> 「這是一篇關於 hBN 量子發射體的新論文。請依照 `AGENTS.md` 規則匯入至 `raw/`，並於 `wiki/papers/` 生成包含圖表深度解析的 IMRaD 筆記，同時更新 `wiki/index.md`、鏈結概念並記入日誌。」
