@@ -3,7 +3,7 @@
   - [時間日誌](wiki/log.md)
 
 - 論文精讀 (IMRaD)
-  - [2021 | Giant Stark Effect in Blue Emitters (Noh et al.)](wiki/papers/2021_noh_giant_stark_blue_hbn.md)
+  - [2023 | Stark Effect of Blue Quantum Emitters (Zhigulin et al.)](wiki/papers/2023_zhigulin_stark_blue_hbn.md)
 
 - 核心概念 (Concepts)
   - [Hexagonal Boron Nitride Defects](wiki/concepts/hbn-defects.md)

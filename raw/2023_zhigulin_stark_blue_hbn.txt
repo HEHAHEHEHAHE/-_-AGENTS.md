@@ -1,0 +1,10 @@
+Title: Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride
+Authors: Ivan Zhigulin, Jake Horder, Viktor Ivady, Simon J. U. White, Angus Gale, Chi Li, Charlene J. Lobo, Milos Toth, Igor Aharonovich, Mehran Kianinia
+Journal: Physical Review Applied, 19(6), 064042 (2023)
+DOI: 10.1103/PhysRevApplied.19.064042
+arXiv: 2210.02100
+
+Abstract & Raw Excerpts:
+Color centers in hexagonal boron nitride (hBN) are compelling candidates for integrated quantum nanophotonics. While most studied emitters operate in the visible and near-infrared spectral range, optically stable blue quantum emitters with zero-phonon lines (ZPLs) centered near 436 nm have recently been engineered with high yield. Understanding their response to local electric fields is critical for electrostatic tuning and assessing charge noise susceptibility.
+Here, we investigate the Stark effect of site-specifically generated blue quantum emitters in hBN using planar and vertical electrode architectures. Coherent photoluminescence excitation (PLE) and high-resolution confocal spectroscopy under external electric fields up to 0.4 MV/cm reveal that blue emitters exhibit a weak, predominantly quadratic Stark shift of the ZPL, indicating negligible permanent electric dipole moments along both in-plane and out-of-plane directions.
+The extracted polarizability change Delta alpha is found to be on the order of 10^(-39) to 10^(-38) C m^2 / V. Density functional theory (DFT) simulations identify defect candidates with high inversion symmetry and negligible ground-to-excited state charge transfer, explaining the observed insensitivity to external fields and remarkably suppressed spectral diffusion.
