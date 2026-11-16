@@ -7,10 +7,10 @@
   <meta name="description" content="Hexagonal Boron Nitride (hBN) 藍光量子發射體與 Stark Effect 學術論文知識庫">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0">
   
-  <!-- 簡潔、無花俏圖標的學術極簡風格 -->
+  <!-- Docsify 主題 -->
   <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify@4/lib/themes/vue.css">
   <!-- KaTeX CSS -->
-  <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.css"/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css">
   
   <style>
     :root {
@@ -76,7 +76,7 @@
       color: #0f172a;
       padding: 16px 0 8px 0;
     }
-    /* KaTeX 渲染顯示優化 */
+    /* KaTeX 顯示模式優化 */
     .katex-display {
       margin: 1em 0;
       overflow-x: auto;
@@ -100,16 +100,41 @@
         placeholder: '搜尋論文、概念、缺陷...',
         noData: '查無結果',
         depth: 4
-      }
+      },
+      // 自寫 KaTeX 渲染：在 Docsify 每次載入頁面後掃描並渲染所有 $...$ 與 $$...$$ 公式
+      plugins: [
+        function(hook) {
+          hook.afterEach(function(html) {
+            // 第一步：處理 display math ($$...$$)
+            html = html.replace(/\$\$([\s\S]*?)\$\$/g, function(match, tex) {
+              try {
+                return katex.renderToString(tex.trim(), { displayMode: true, throwOnError: false });
+              } catch(e) {
+                return '<span style="color:red">' + e.message + '</span>';
+              }
+            });
+            // 第二步：處理 inline math ($...$)，但跳過已渲染的 katex 標籤與 code 區塊
+            html = html.replace(/\$([^\$\n]+?)\$/g, function(match, tex) {
+              // 避免誤抓 HTML 屬性或 code 內容
+              if (tex.indexOf('<') !== -1 || tex.indexOf('>') !== -1) return match;
+              try {
+                return katex.renderToString(tex.trim(), { displayMode: false, throwOnError: false });
+              } catch(e) {
+                return '<span style="color:red">' + e.message + '</span>';
+              }
+            });
+            return html;
+          });
+        }
+      ]
     };
   </script>
   <!-- Docsify v4 -->
   <script src="//cdn.jsdelivr.net/npm/docsify@4"></script>
   <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/search.min.js"></script>
 
-  <!-- 穩定可靠的 KaTeX 外掛載入鏈 -->
-  <script src="//cdn.jsdelivr.net/npm/katex@latest/dist/katex.min.js"></script>
-  <script src="//cdn.jsdelivr.net/npm/docsify-katex@latest/dist/docsify-katex.js"></script>
+  <!-- KaTeX JS (固定版本，確保穩定) -->
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.js"></script>
 
   <!-- 程式碼語法高亮 -->
   <script src="//cdn.jsdelivr.net/npm/prismjs@1/components/prism-python.min.js"></script>

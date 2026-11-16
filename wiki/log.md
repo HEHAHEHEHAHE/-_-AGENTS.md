@@ -12,7 +12,7 @@
 ## [2026-11-17] ingest | 匯入真實文獻：Stark Effect of Blue Quantum Emitters in hBN (Zhigulin et al. 2023)
 - 原始文獻摘要存入 `raw/2023_zhigulin_stark_blue_hbn.txt`（DOI: [10.1103/PhysRevApplied.19.044011](https://doi.org/10.1103/PhysRevApplied.19.044011)）。
 - 撰寫結構化論文精讀 `wiki/papers/2023_zhigulin_stark_blue_hbn.md`，完整拆解 Figure 1 至 Figure 3 之視覺組件、數據流向、物理意義與量化數據。
-- 提煉核心科學結論：hBN 中的 436 nm **Blue Quantum Emitters** 在電場下表現出二次極化率主導的 **Quadratic Stark Effect**，永久電偶極矩趨近於零（$\mu \approx 0$），揭示其優異頻譜穩定度與極低 **Spectral Diffusion** 之成因。
+- 提煉核心科學結論：hBN 中的 436 nm Blue Quantum Emitters 在電場下表現出二次極化率主導的 Quadratic Stark Effect，永久電偶極矩趨近於零（$\mu \approx 0$），揭示其優異頻譜穩定度與極低 Spectral Diffusion 之成因。
 - 建立並鏈結核心概念頁面：
   - `wiki/concepts/hbn-defects.md`
   - `wiki/concepts/blue-quantum-emitters.md`
@@ -23,3 +23,8 @@
 - 驗證正確之官方 DOI: [10.1103/PhysRevApplied.19.044011](https://doi.org/10.1103/PhysRevApplied.19.044011) 解析與文獻對應。
 - 優化 KaTeX 公式渲染外掛相容性，確保行內與區塊數學式完美呈現。
 - 全站統一為「繁體中文說明 + 英文保留專有名詞」標準，無孤兒頁面與格式斷裂。
+
+## [2026-11-17] fix | 徹底修復 KaTeX 渲染問題
+- 根本原因：第三方 `docsify-katex` 外掛與 Docsify 內建 `marked.js` 版本不相容，導致所有 `$...$` 與 `$$...$$` 公式無法渲染。
+- 修復方式：移除不穩定的第三方外掛，改用自寫 Docsify plugin hook（`afterEach`），以 KaTeX API 直接掃描並渲染 HTML 中的數學公式。
+- 同步清除所有 markdown 檔案中多餘的 `**` 粗體標記，確保排版整潔。
