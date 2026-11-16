@@ -1,8 +1,8 @@
 # Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride
 
 - **Authors**: Ivan Zhigulin, Jake Horder, Viktor Ivády, Simon J. U. White, Angus Gale, Chi Li, Charlene J. Lobo, Miloš Toth, Igor Aharonovich, Mehran Kianinia
-- **Journal**: Physical Review Applied, 19(6), 064042 (2023)
-- **DOI**: [10.1103/PhysRevApplied.19.064042](https://doi.org/10.1103/PhysRevApplied.19.064042)
+- **Journal**: Physical Review Applied, 19(4), 044011 (2023)
+- **DOI**: [10.1103/PhysRevApplied.19.044011](https://doi.org/10.1103/PhysRevApplied.19.044011)
 - **Keywords / Tags**: #hBN #BlueEmitter #StarkEffect #SinglePhotonSource #PointDefects
 
 ---
