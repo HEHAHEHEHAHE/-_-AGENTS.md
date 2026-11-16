@@ -20,15 +20,15 @@
 
 | 年份 | 論文名稱 | 第一作者 | ZPL 放光波長 | 主導 Stark 機制 | $g^{(2)}(0)$ | 筆記連結 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| **2023** | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8\text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $0.08$ | [閱讀精讀筆記](wiki/papers/2023_zhigulin_stark_blue_hbn.md) |
+| **2023** | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | 435.8 nm | 二次方極化率 (Quadratic, $\mu \approx 0$) | 0.08 | [閱讀精讀筆記](wiki/papers/2023_zhigulin_stark_blue_hbn.md) |
 
 ---
 
 ## 核心物理概念索引 (Core Concepts)
 
-- **[Hexagonal Boron Nitride Defects](wiki/concepts/hbn-defects.md)**：深入探討二維寬能隙材料中的點缺陷（$V_B^-$、$C_B V_N$、碳複合缺陷）與對稱性破缺機制。
-- **[Blue Quantum Emitters](wiki/concepts/blue-quantum-emitters.md)**：高能量藍光單光子發射體（400–450 nm）之光電特性與極低光譜擴散優勢。
-- **[Stark Effect in 2D Materials](wiki/concepts/stark-effect-tuning.md)**：外加電場下的線性偶極位移與二次極化率位移數學模型（$\Delta E = -\vec{\mu}\cdot\vec{F} - \frac{1}{2}\alpha F^2$）。
+- [Hexagonal Boron Nitride Defects](wiki/concepts/hbn-defects.md)：深入探討二維寬能隙材料中的點缺陷（$V_B^-$、$C_B V_N$、碳複合缺陷）與對稱性破缺機制。
+- [Blue Quantum Emitters](wiki/concepts/blue-quantum-emitters.md)：高能量藍光單光子發射體（400–450 nm）之光電特性與極低光譜擴散優勢。
+- [Stark Effect in 2D Materials](wiki/concepts/stark-effect-tuning.md)：外加電場下的線性偶極位移與二次極化率位移數學模型（$\Delta E = -\vec{\mu}\cdot\vec{F} - \frac{1}{2}\alpha F^2$）。
 
 ---
 

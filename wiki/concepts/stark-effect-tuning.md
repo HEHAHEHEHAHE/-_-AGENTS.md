@@ -31,11 +31,11 @@ $$\Delta E = -\vec{\mu} \cdot \vec{F} - \frac{1}{2} \alpha F^2$$
 ---
 
 ## 3. 在量子資訊中的工程意涵 (Quantum Information Engineering)
-1. **動態頻率調諧 (Dynamic Frequency Tuning)**：  
-   補償因局部應力造成的放光波長不均勻性，使多個獨立的 **Single-Photon Emitter (SPE)** 達到頻率共振，以實現高可見度的雙光子 Hong-Ou-Mandel (HOM) 量子干涉。
-2. **光譜擴散壓制 (Spectral Diffusion Suppression)**：  
+1. 動態頻率調諧 (Dynamic Frequency Tuning)：  
+   補償因局部應力造成的放光波長不均勻性，使多個獨立的 Single-Photon Emitter (SPE) 達到頻率共振，以實現高可見度的雙光子 Hong-Ou-Mandel (HOM) 量子干涉。
+2. 光譜擴散壓制 (Spectral Diffusion Suppression)：  
    擁有近乎為零永久偶極矩的發射體對環境周遭的微觀電荷波動（Charge Noise）不敏感，因而具備極為優異的頻譜穩定度。
-3. **晶片級電光調變 (On-Chip Electro-Optic Modulation)**：  
+3. 晶片級電光調變 (On-Chip Electro-Optic Modulation)：  
    利用微米級積體電極施加偏壓，可實現高速量子光源調變。
 
 ---

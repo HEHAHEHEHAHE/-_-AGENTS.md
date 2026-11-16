@@ -1,7 +1,7 @@
 # 六方氮化硼點缺陷 (Hexagonal Boron Nitride Point Defects)
 
 - **領域分類**：Materials Science / Solid-State Defects
-- **主體基質**：二維層狀六方氮化硼（寬能隙材料，帶隙約 $6.0\text{ eV}$）
+- **主體基質**：二維層狀六方氮化硼（寬能隙材料，帶隙約 6.0 eV）
 - **主要缺陷類別**：空缺缺陷（Vacancies）、碳雜質複合中心（Carbon Complexes）、反位缺陷（Antisites）
 
 ---

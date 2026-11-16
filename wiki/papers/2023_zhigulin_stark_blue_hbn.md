@@ -24,9 +24,9 @@
 - **樣本製備與色心生成 (Sample Preparation)**：  
   將高品質多層 hBN 薄片置於微米級金屬電極圖案基板上，利用電子束照射配合控制性熱退火工藝，以高良率定點生成 436 nm 藍光單光子發射中心。
 - **電極幾何與電場施加 (Electrode Architecture)**：  
-  製作平面叉指電極（Interdigital Electrodes）與三明治結構電極，可在發射體局部施加高達 $0.4\text{ MV/cm}$ 的可調靜電場。
+  製作平面叉指電極（Interdigital Electrodes）與三明治結構電極，可在發射體局部施加高達 0.4 MV/cm 的可調靜電場。
 - **光學量測系統 (Optical Characterization Setup)**：  
-  在低溫低溫恆溫器（$T = 10\text{ K}$）下使用微聚焦 **Photoluminescence (PL)** 與共振激發光譜系統，並利用 Hanbury Brown–Twiss (HBT) 干涉儀量測二階自相關函數 $g^{(2)}(\tau)$。
+  在低溫恆溫器（$T = 10$ K）下使用微聚焦 Photoluminescence (PL) 與共振激發光譜系統，並利用 Hanbury Brown–Twiss (HBT) 干涉儀量測二階自相關函數 $g^{(2)}(\tau)$。
 
 ---
 
@@ -42,24 +42,24 @@
 3. **物理意義與設計意圖**：
    - 證實所研究的對象為純淨的藍光單光子源，光學品質良好且具備高單光子發射機率。
 4. **關鍵量化結論**：
-   - ZPL 中心波長：$\lambda_{\text{ZPL}} = 435.8\text{ nm}$（$2.84\text{ eV}$）。
-   - 低溫線寬：小於 $0.2\text{ nm}$。
+   - ZPL 中心波長：$\lambda_{\mathrm{ZPL}} = 435.8$ nm（2.84 eV）。
+   - 低溫線寬：小於 0.2 nm。
    - 單光子純度：$g^{(2)}(0) = 0.08 \pm 0.02 \ll 0.5$。
 
 ---
 
 ### Figure 2: 外加電場下的光譜位移與極化率解析
 1. **視覺組件拆解**：
-   - **(a) 電場調諧二維光譜圖**：橫軸為能量偏移 $\Delta E$（$\mu\text{eV}$），縱軸為外加電場強度 $F$（MV/cm），顏色代表 PL 強度。
+   - **(a) 電場調諧二維光譜圖**：橫軸為能量偏移 $\Delta E$（μeV），縱軸為外加電場強度 $F$（MV/cm），顏色代表 PL 強度。
    - **(b) 能量位移擬合曲線**：數據點以二次方程 $\Delta E = -\frac{1}{2}\Delta\alpha F^2$ 進行曲線擬合。
 2. **資料與機制流向**：
    - 隨電場由負向掃描至正向，ZPL 展現對稱的二次拋物線漂移，無論電場極性為何皆往相同方向偏移。
 3. **物理意義與設計意圖**：
    - 嚴格的對稱二次依賴性證實該缺陷無可量測之線性項，直接判定面內與面外永久電偶極矩均微乎其微。
 4. **關鍵量化結論**：
-   - 線性偶極矩貢獻：$\mu \approx 0\text{ Debye}$。
-   - 極化率變化：$\Delta\alpha \approx (1.2 \pm 0.3) \times 10^{-38}\text{ C}\cdot\text{m}^2/\text{V}$。
-   - 最大位移幅度：在 $0.4\text{ MV/cm}$ 下約數百 $\mu\text{eV}$。
+   - 線性偶極矩貢獻：$\mu \approx 0$ Debye。
+   - 極化率變化：$\Delta\alpha \approx (1.2 \pm 0.3) \times 10^{-38}$ C·m²/V。
+   - 最大位移幅度：在 0.4 MV/cm 下約數百 μeV。
 
 ---
 

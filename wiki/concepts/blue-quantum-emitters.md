@@ -1,8 +1,8 @@
 # 六方氮化硼藍光量子發射體 (Blue Quantum Emitters in hBN)
 
 - **領域分類**：Optoelectronic Properties / Quantum Light Sources
-- **典型光譜區間**：$400\text{ nm} - 450\text{ nm}$ ($2.75\text{ eV} - 3.10\text{ eV}$)
-- **典型線寬 (Linewidth)**：低溫（Cryogenic）下約 $0.1 - 0.5\text{ nm}$，室溫下約 $1 - 3\text{ nm}$
+- **典型光譜區間**：400–450 nm（2.75–3.10 eV）
+- **典型線寬 (Linewidth)**：低溫（Cryogenic）下約 0.1–0.5 nm，室溫下約 1–3 nm
 
 ---
 
