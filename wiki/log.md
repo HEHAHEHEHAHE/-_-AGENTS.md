@@ -42,3 +42,12 @@
   - 圖片資產資料夾：`wiki/assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/`
   - 原始文獻文本：`raw/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.txt`
 - 同步更新索引（`wiki/index.md`）、導覽選單（`wiki/_sidebar.md`）、概念頁面交叉連結與 `AGENTS.md` 規範守則。
+
+## [2026-11-17] ingest | Investigating the fast spectral diffusion of a quantum emitter in hBN using resonant excitation and photon correlations
+- 原始文獻存入 `raw/Investigating_the_fast_spectral_diffusion_of_a_quantum_emitter_in_hBN_using_resonant_excitation_and_photon_correlations.txt`（DOI: [10.1103/PhysRevB.107.195304](https://doi.org/10.1103/PhysRevB.107.195304)）。
+- 提取並生成 5 張高解析度學術圖表存入 `wiki/assets/Investigating_the_fast_spectral_diffusion_of_a_quantum_emitter_in_hBN_using_resonant_excitation_and_photon_correlations/`（FIG. 1 至 FIG. 5）。
+- 撰寫 IMRaD 格式深度精讀筆記 `wiki/papers/Investigating_the_fast_spectral_diffusion_of_a_quantum_emitter_in_hBN_using_resonant_excitation_and_photon_correlations.md`，完成全圖表四步深度解析。
+- 核心物理成果：
+  - 確立藍光 B center 色心在頻譜跳躍間隙具備 **Fourier-limited** 單光子發射能力（$T_2/2T_1 \sim 1$）。
+  - 定量解析出特徵微秒級快速光譜擴散（$T_{\text{SD}} \approx 10\text{--}50\text{ }\mu\text{s}$），單次跳躍前可連續發射約 $10^4$ 顆全同光子。
+- 同步更新論文總目錄 `wiki/index.md`、側邊欄 `wiki/_sidebar.md` 與概念頁面 `wiki/concepts/blue-quantum-emitters.md`。

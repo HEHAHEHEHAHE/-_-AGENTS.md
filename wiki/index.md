@@ -18,9 +18,10 @@
 
 ## 論文索引總覽 (Paper Catalog)
 
-| 年份 | 論文名稱 | 第一作者 | ZPL 放光波長 | 主導 Stark 機制 | $g^{(2)}(0)$ | 筆記連結 |
+| 年份 | 論文名稱 | 第一作者 | ZPL 放光波長 | 主導物理機制 | 關鍵量子指標 | 筆記連結 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2023 | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8 \text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $0.08$ | [閱讀精讀筆記](wiki/papers/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md) |
+| 2023 | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8 \text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $g^{(2)}(0) = 0.08$ | [閱讀精讀筆記](wiki/papers/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md) |
+| 2023 | Investigating the fast spectral diffusion of a quantum emitter in hBN using resonant excitation and photon correlations | Clarisse Fournier et al. | ~436 nm (B center) | 快速光譜擴散 ($T_{\text{SD}} \approx 10\text{--}50\text{ }\mu\text{s}$) | $T_2/2T_1 \sim 1$ (Fourier-limited) | [閱讀精讀筆記](wiki/papers/Investigating_the_fast_spectral_diffusion_of_a_quantum_emitter_in_hBN_using_resonant_excitation_and_photon_correlations.md) |
 
 ---
 
