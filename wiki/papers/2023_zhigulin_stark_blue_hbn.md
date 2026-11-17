@@ -36,7 +36,7 @@
 
 ### Figure 1: 藍光單光子發射體基本特性
 
-![FIG. 1](wiki/assets/2023_zhigulin/fig1.png)
+![FIG. 1](../assets/2023_zhigulin/fig1.png)
 
 > FIG. 1. Blue single-photon emitters in h-BN. (a) Atomic defects in h-BN as a source of quantum emission. (b) Room-temperature autocorrelation measurement of a single defect in h-BN emitting photons at 436 nm. (c) Photoluminescence spectra of a blue emitter obtained at cryogenic temperature and room temperature. (d) Resonant excitation of a blue emitter fit with a Gaussian function with a linewidth of 1.9 GHz.
 
@@ -58,7 +58,7 @@
 
 ### Figure 2: 垂直結構產生面外電場下的 Stark Effect
 
-![FIG. 2](wiki/assets/2023_zhigulin/fig2.png)
+![FIG. 2](../assets/2023_zhigulin/fig2.png)
 
 > FIG. 2. Stark effect in a vertical structure used to generate an out-of-plane electric field. (a) Vertical structure schematic with h-BN between bottom gold electrode and top MLG electrode. (b) Microscope image of the vertical device. (c) I-V characteristic at 5 K. (d) PL spectra under varying bias voltage. (e) PL peak position as a function of electric field. (f) Polarization measurement.
 
@@ -81,7 +81,7 @@
 
 ### Figure 3: 橫向結構產生面內電場下的 Stark Effect
 
-![FIG. 3](wiki/assets/2023_zhigulin/fig3.png)
+![FIG. 3](../assets/2023_zhigulin/fig3.png)
 
 > FIG. 3. Stark effect in a lateral structure used to generate an in-plane electric field. (a) Lateral structure schematic with h-BN between two gold electrodes. (b) Microscope image of the lateral device (scale bar 50 μm). (c) I-V characteristic at 5 K; inset shows confocal PL map. (d) PL spectra under varying bias. (e) PL peak position as a function of electric field, fitted with a quadratic function.
 
@@ -104,7 +104,7 @@
 
 ### Figure 4: 不同 hBN 發射體之偶極矩分量比較
 
-![FIG. 4](wiki/assets/2023_zhigulin/fig4.png)
+![FIG. 4](../assets/2023_zhigulin/fig4.png)
 
 > FIG. 4. Comparison of components of the transition dipole moment for emitters in h-BN. Values at L1 and L2 correspond to two blue emitters examined in the lateral device. Other values are taken from Noh et al. and Nikolay et al.
 
@@ -123,7 +123,7 @@
 
 ### Figure 5: DFT 計算缺陷模型與電場響應
 
-![FIG. 5](wiki/assets/2023_zhigulin/fig5.png)
+![FIG. 5](../assets/2023_zhigulin/fig5.png)
 
 > FIG. 5. Representation of (a) nitrogen split interstitial defect, (b) $C_N^2$ defect in the h-BN lattice, (c) the electric field dependence of the ZPL energy of the nitrogen split interstitial defect as obtained from first-principles calculations.
 
