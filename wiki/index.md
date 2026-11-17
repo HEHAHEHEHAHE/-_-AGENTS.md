@@ -20,7 +20,7 @@
 
 | 年份 | 論文名稱 | 第一作者 | ZPL 放光波長 | 主導 Stark 機制 | $g^{(2)}(0)$ | 筆記連結 |
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
-| 2023 | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8 \text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $0.08$ | [閱讀精讀筆記](wiki/papers/2023_zhigulin_stark_blue_hbn.md) |
+| 2023 | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8 \text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $0.08$ | [閱讀精讀筆記](wiki/papers/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md) |
 
 ---
 

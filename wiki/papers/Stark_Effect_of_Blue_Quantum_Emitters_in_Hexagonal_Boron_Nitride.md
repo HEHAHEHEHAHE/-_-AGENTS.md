@@ -36,7 +36,7 @@
 
 ### Figure 1: 藍光單光子發射體光學特性與線寬分析
 
-![FIG. 1: Blue single-photon emitters in h-BN](../assets/2023_zhigulin/fig1.png)
+![FIG. 1: Blue single-photon emitters in h-BN](../assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/fig1.png)
 
 <div class="figure-caption">
 <strong>FIG. 1. Blue single-photon emitters in h-BN.</strong> (a) Atomic defects in h-BN as a source of quantum emission. (b) Room-temperature autocorrelation measurement of a single defect in h-BN emitting photons at 436 nm. The solid line is a fit to the data. (c) Photoluminescence spectra of a blue emitter obtained at cryogenic temperature and room temperature. (d) Resonant excitation of a blue emitter fit with a Gaussian function with a linewidth of 1.9 GHz.
@@ -60,7 +60,7 @@
 
 ### Figure 2: 垂直結構中面外電場之 Stark Effect 量測
 
-![FIG. 2: Stark effect in a vertical structure](../assets/2023_zhigulin/fig2.png)
+![FIG. 2: Stark effect in a vertical structure](../assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/fig2.png)
 
 <div class="figure-caption">
 <strong>FIG. 2. Stark effect in a vertical structure used to generate an out-of-plane electric field.</strong> (a) A vertical structure with h-BN located between the bottom gold electrode and a top MLG electrode. (b) Microscope image of the vertical device (the scale bar is 20 µm). Colored outlines show the edges of each layer: the h-BN layer hosting blue emitters is covered with MGL and a protective h-BN capping layer. (c) I-V characteristic of a vertical device at 5 K as measured under a bias from −15 to 15 V. (d) Emission polarization of the examined emitter in a vertical structure, which yields a polarization-visibility value of 0.83. (e) Emission linewidth and ZPL shift versus applied electric field determined by Eq. (3). A linear fit yields a gradient of 0.01 GHz MV⁻¹ m.
@@ -85,7 +85,7 @@
 
 ### Figure 3: 橫向結構中面內電場之二次方 Stark Effect 響應
 
-![FIG. 3: Stark effect in a lateral structure](../assets/2023_zhigulin/fig3.png)
+![FIG. 3: Stark effect in a lateral structure](../assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/fig3.png)
 
 <div class="figure-caption">
 <strong>FIG. 3. Stark effect in a lateral structure used to generate an in-plane electric field.</strong> (a) A lateral structure with h-BN between two gold electrodes. (b) Microscope image of the lateral device (the scale bar is 50 µm). A h-BN flake is positioned on top of interdigitated gold electrodes, with gap separations of 2 µm. (c) I-V characteristic of the lateral device at 5 K from −20 to 20 V. The inset in (c) shows a room-temperature PL map from a confocal-microscope scan of a 7 × 7 µm² section of a h-BN flake used in the lateral structure. (d) Polarization plot of the emission dipole with a polarizability of 0.77, and orientation of the applied electric field from electrodes. (e) Linewidth and ZPL shifts versus applied electric field. The ZPL-shift data are fit to Eq. (2), yielding $\Delta\mu = 0.10\text{ D}$ and $\Delta\alpha = 1078\text{ \AA}^3$.
@@ -110,7 +110,7 @@
 
 ### Figure 4: hBN 缺陷之偶極矩分量與極化率對照分佈
 
-![FIG. 4: Comparison of transition dipole moments](../assets/2023_zhigulin/fig4.png)
+![FIG. 4: Comparison of transition dipole moments](../assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/fig4.png)
 
 <div class="figure-caption">
 <strong>FIG. 4. Comparison of components of the transition dipole moment for emitters in h-BN.</strong> Values at L1 correspond to the first blue emitter examined in the lateral device. Values at L2 correspond to the second emitter in the same device. The other values are taken from Noh et al. and Nikolay et al.
@@ -133,7 +133,7 @@
 
 ### Figure 5: 候選點缺陷原子結構與 DFT 電場響應第一性原理計算
 
-![FIG. 5: DFT defect structures and Stark shift calculation](../assets/2023_zhigulin/fig5.png)
+![FIG. 5: DFT defect structures and Stark shift calculation](../assets/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride/fig5.png)
 
 <div class="figure-caption">
 <strong>FIG. 5. Representation of (a) nitrogen split interstitial defect, (b) $C_N^2$ defect in the h-BN lattice, (c) the electric field dependence of the ZPL energy of the nitrogen split interstitial defect as obtained from first-principles calculations.</strong>

@@ -33,4 +33,4 @@ Hexagonal Boron Nitride (hBN) 中的 Blue Quantum Emitters 代表位於禁能帶
 ---
 
 ## 4. 本知識庫相關論文 (Related Papers)
-- [Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride](wiki/papers/2023_zhigulin_stark_blue_hbn.md)
+- [Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride](wiki/papers/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md)

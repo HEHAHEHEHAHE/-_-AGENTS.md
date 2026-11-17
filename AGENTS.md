@@ -99,9 +99,10 @@
 ---
 
 ## 5. 檔案命名與目錄慣例
-- 論文筆記：`wiki/papers/{year}_{first_author_lowercase}_{short_topic}.md`（例：`2021_noh_giant_stark_blue_hbn.md`）。
+- 論文筆記：`wiki/papers/{Paper_Title_Snake_Case}.md`（以完整論文標題 Snake_case 命名，例：`Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md`）。
+- 原始文件：`raw/{Paper_Title_Snake_Case}.txt`。
 - 概念說明：`wiki/concepts/{concept_kebab_case}.md`（例：`stark-effect-tuning.md`）。
-- 圖片資源（若有）：`wiki/assets/{paper_keyword}/figX.png`。
+- 圖片資源（若有）：`wiki/assets/{Paper_Title_Snake_Case}/figX.png`（專屬獨立資料夾，存放對應圖表）。
 - 索引與側欄：`wiki/index.md`、`wiki/_sidebar.md` 必須使用相對路徑連結。
 
 ---
