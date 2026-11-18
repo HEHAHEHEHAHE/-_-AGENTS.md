@@ -51,3 +51,14 @@
   - 確立藍光 B center 色心在頻譜跳躍間隙具備 **Fourier-limited** 單光子發射能力（$T_2/2T_1 \sim 1$）。
   - 定量解析出特徵微秒級快速光譜擴散（$T_{\text{SD}} \approx 10\text{--}50\text{ }\mu\text{s}$），單次跳躍前可連續發射約 $10^4$ 顆全同光子。
 - 同步更新論文總目錄 `wiki/index.md`、側邊欄 `wiki/_sidebar.md` 與概念頁面 `wiki/concepts/blue-quantum-emitters.md`。
+
+## [2026-11-18] ingest | Electron Beam Restructuring of Quantum Emitters in Hexagonal Boron Nitride
+- 原始文獻存入 `raw/Electron_Beam_Restructuring_of_Quantum_Emitters_in_Hexagonal_Boron_Nitride.txt`（DOI: [10.1002/adom.202400908](https://doi.org/10.1002/adom.202400908)）。
+- 提取並生成 5 張高解析度學術圖表存入 `wiki/assets/Electron_Beam_Restructuring_of_Quantum_Emitters_in_Hexagonal_Boron_Nitride/`（Figure 1 至 Figure 5）。
+- 撰寫 IMRaD 格式深度精讀筆記 `wiki/papers/Electron_Beam_Restructuring_of_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md`，完整拆解五大關鍵圖表之視覺組件、數據機制流向、設計意圖與量化結論。
+- 核心科學突破與量化成果：
+  - 原位 CL 動力學證實 436 nm B-center 之生成伴隨 305 nm 碳相關 UV 發射之淬滅，兩者之飽和時間常數 $t_{\text{sat}}$ 明顯分離，排除了單步直接碰撞游離假說。
+  - 證實結構重組速率受限於介電質充電引發之內建靜電場 $\xi$ 驅動的帶電缺陷「電遷移（Electromigration）」。
+  - 束流中斷（Beam Blanking）實驗與 7 nm 接地金膜對照實驗確鑿證實了電場主導機制，並排除了純碰撞重組與局部焦耳熱效應。
+  - 建立 500 °C 空氣退火 + 原位空氣電漿 + 3 keV 低能量電子束照射 + 非原位 UV 臭氧乾蝕刻之標準化抗污染工藝，成功將可重現製備 B-center 的薄片厚度下限推進至 8 nm。
+- 同步更新論文目錄 `wiki/index.md`、側邊導覽選單（多層目錄同步）與核心概念頁面（`wiki/concepts/blue-quantum-emitters.md`、`wiki/concepts/hbn-defects.md`）。

@@ -22,6 +22,7 @@
 | :--- | :--- | :--- | :--- | :--- | :--- | :--- |
 | 2023 | Stark Effect of Blue Quantum Emitters in Hexagonal Boron Nitride | Ivan Zhigulin et al. | $435.8 \text{ nm}$ | 二次方極化率 (Quadratic, $\mu \approx 0$) | $g^{(2)}(0) = 0.08$ | [閱讀精讀筆記](wiki/papers/Stark_Effect_of_Blue_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md) |
 | 2023 | Investigating the fast spectral diffusion of a quantum emitter in hBN using resonant excitation and photon correlations | Clarisse Fournier et al. | ~436 nm (B center) | 快速光譜擴散 ($T_{\text{SD}} \approx 10\text{--}50\text{ }\mu\text{s}$) | $T_2/2T_1 \sim 1$ (Fourier-limited) | [閱讀精讀筆記](wiki/papers/Investigating_the_fast_spectral_diffusion_of_a_quantum_emitter_in_hBN_using_resonant_excitation_and_photon_correlations.md) |
+| 2024 | Electron Beam Restructuring of Quantum Emitters in Hexagonal Boron Nitride | Sergei Nedić et al. | 305 nm (UV) & 436 nm (B-center) | 充電電場誘發電遷移 (Electromigration under field $\xi$) | 超薄層下限 8 nm、3 keV 低溫退火抑制背景 | [閱讀精讀筆記](wiki/papers/Electron_Beam_Restructuring_of_Quantum_Emitters_in_Hexagonal_Boron_Nitride.md) |
 
 ---
 
